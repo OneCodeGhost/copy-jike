@@ -1,0 +1,237 @@
+*{
+    font-family:PingFang SC, 'Hiragino Sans GB', 'Helvetica Neue', Microsoft Yahei, Arial, sans-serif;
+    font-size:14px;
+    color:#000;
+    margin:0;
+    padding:0;
+}
+a{
+    cursor:pointer;
+    text-decoration:none;
+    color:#fff;
+}
+a:hover{
+    text-decoration:none;
+}
+div.header{
+    background-color:#fff;
+    padding:13px;
+    box-shadow: 0 0 1px #ccc;
+}
+div.header-main{
+    margin:0 4em;
+    padding:0 4em;
+    text-align: center;
+
+}
+.main-content{
+    display: flex;
+    justify-content:space-between;
+}
+div.main-content span{
+    font-size: 16px;
+    line-height:28px;
+}
+.brand-logo{
+    height:30px;
+    width:30px;
+    background-image:url("https://cdn.ruguoapp.com/site/images/icon-regular.19b2e42.svg");
+    background-size:cover;
+    display:inline-block;
+    vertical-align:middle;
+}
+.app-name{
+    font-weight:500;
+    font-size:20px !important;
+    margin-left:10px;
+    position:relative;
+    vertical-align:middle;
+}
+
+div.section-hero{
+    display:flex;
+    justify-content:center;
+    height:90vw;
+    min-height:300px;
+    max-height:589px;
+    background-image: url(https://cdn.ruguoapp.com/site/images/hero-background.24f413f.jpg);
+
+}
+div.phone{
+    width: 25vw;
+    height:80vw;
+    min-width: 442px;
+    max-width: 442px;
+    min-height: 255px;
+    max-height: 501px;
+    background-color: #fff;
+    position:relative;
+    top:100px;
+    border-top-left-radius: 11%;
+    border-top-right-radius: 11%;
+}
+.phone-top{
+    margin: 0 auto;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: rgb(105, 105, 105);
+    position:relative;
+    top:40px;
+}
+.phone-main{
+    border:1px solid #000;
+    margin:80px 20px 0;
+    border-bottom:none;
+}
+.phone-main video{
+    width:100%;
+    height:100%;
+}
+
+.download{
+    width:100%;
+    padding:60px 0;
+    overflow:hidden;
+}
+div.download-main{
+    display:flex;
+    justify-content: space-between;
+    max-width:610px !important;
+    margin: 0 auto;
+}
+div.download-main a{
+    display:flex;
+    justify-content:space-between;
+}
+div.download-main a,div.Code-2D{
+    overflow: hidden;
+    background-color:#161414;
+    height:46px;
+    width:150px;
+    border-radius:4%;
+    padding:4px 30px;
+    transition:all .4s;
+    text-align: center;
+}
+.download-main span.fa{
+    color:#fff;
+    font-size:30px;
+    line-height:36px;
+    vertical-align:middle;
+}
+div.Code-2D{
+    background-color:#fff !important;
+    border:1px solid #000;
+    border-radius:4%;
+    cursor:pointer;
+}
+div.Code-2D div{
+    position:relative;
+    top:25%;
+}
+div.download-main a:hover{
+    opacity:.9;
+}
+
+div.download-name div{
+    color:#fff;
+    text-align:start;
+}
+.platform-text{
+    line-height:20px;
+    font-size: 11px;
+}
+.download-text{
+    font-size:13px;
+}
+.introduce{
+    display:flex;
+    margin-bottom: 20px;
+}
+.img{
+    background-size: cover;
+    width:58px;
+    height:58px;
+    margin-right:35px;
+}
+.item-text{
+    font-size:18px;
+    padding:16px 0;
+}
+.img-new{
+    background-image: url("https://cdn.ruguoapp.com/site/images/feature-news@2x.a1bbc8c.png");
+}
+.img-push{
+    background-image: url(https://cdn.ruguoapp.com/site/images/feature-notification@2x.27b309b.png);
+}
+.img-customize{
+    background-image: url(https://cdn.ruguoapp.com/site/images/feature-customize@2x.2ef0a3d.png);
+}
+.img-filter{
+    background-image: url(https://cdn.ruguoapp.com/site/images/feature-filter@2x.3ab2831.png);
+}
+.feature-item{
+    margin:35px;
+    display:flex;
+    min-width:250px;
+    max-width:300px;
+}
+.isjustify{
+    display:flex;
+    justify-content:space-around;
+}
+.footer{
+    background-color:rgb(220, 255, 0);
+    height:140px;
+}
+.footer-content{
+    width:900px;
+    max-width:820px;
+    display:flex;
+    margin:0 auto;
+    position:relative;
+    top:45%;
+    justify-content:space-between;
+}
+.Inc span{
+    margin-right:15px;
+}
+.aboutus{
+    margin-right:-140px;
+}
+.aboutus a{
+    color:#000;
+    padding:0 20px;
+}
+.icon{
+    font-size:26px;
+    margin-left:26px;
+}
+.disblock{
+    width:200px;
+    height:100px;
+    padding:15px 50px;;
+    background-color:rgba(66, 169, 201,0.8);
+    position:absolute;
+    border-radius:2%;
+    display:none;
+    top:1040px;
+    left:51%;
+}
+.disblock::after{
+    display:block;
+    content:"";
+    width:0;
+    height:0;
+    border-width:10px;
+    border-style: solid;
+    border-color:rgba(66, 169, 201,0.8) transparent transparent;
+    position:absolute;
+    left:40%;
+    bottom:-20px;
+}
+.disblock li{
+    padding-top:10px;
+    color:#fff;
+}
